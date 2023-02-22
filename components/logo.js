@@ -18,7 +18,8 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/cat${useColorModeValue('', '-dark')}.png`
+  // const footPrintImg = `/cat${useColorModeValue('', '-dark')}.png`
+  const footPrintImg = `/cat.png`
   return (
     <Link href="https://www.github.com/huy289cb">
       <LogoBox>
