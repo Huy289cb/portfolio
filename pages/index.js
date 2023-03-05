@@ -61,15 +61,14 @@ const Page = () => {
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently he is living off of his own
           product called{' '}
-          <Link as={NextLink} href="/works/inkdrop">Inkdrop</Link>
+          <Link as={NextLink} href="/works/inkdrop">
+            Inkdrop
+          </Link>
           .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
-            <Button
-              rightIcon={<ChevronRightIcon />}
-              colorScheme="teal"
-            >
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
           </NextLink>
@@ -81,17 +80,26 @@ const Page = () => {
         </Heading>
         <BioSection>
           <BioYear>1998</BioYear>
-          Born in Cao Bang (Cao Bằng), Viet Nam.
+          Born in Cao Bang (Cao Bằng), Viet Nam
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Completed the Engineer&apos;s Program in the Software Technology
-          at Ha Noi Open University.
+          Completed the Engineer&apos;s Program in the Software Technology at Ha
+          Noi Open University
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
-          Works as a developer at Globits Co., Ltd.
+          Works as a developer at Globits LLC
         </BioSection>
+      </Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I 💙
+        </Heading>
+        <Paragraph>
+          Art, Anime, <Link href="#">Music</Link>, Computer Game, {' '}
+          <Link href="#">Playing Guitar</Link>
+        </Paragraph>
       </Section>
     </Container>
   )
