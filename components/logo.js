@@ -21,7 +21,7 @@ const Logo = () => {
   // const footPrintImg = `/cat${useColorModeValue('', '-dark')}.png`
   const footPrintImg = `/cat.png`
   return (
-    <Link href="https://www.github.com/huy289cb">
+    <Link href="/">
       <LogoBox>
         <Image src={footPrintImg} width={20} height={20} alt="logo" />
         <Text

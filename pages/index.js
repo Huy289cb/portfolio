@@ -55,16 +55,21 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Huy is a freelance and a full-stack developer based in Ha Noi with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop">
-            Inkdrop
-          </Link>
-          .
+          Huy is a frontend developer based in Ha Noi who is passionate about
+          crafting exceptional digital experiences that align with his vision.
+          Possessing two years of experience in frontend development and UI/UX
+          design, Huy has honed his knowledge of web development fundamentals,
+          including HTML, CSS, and JavaScript. He is well-versed in popular
+          frontend frameworks such as React, Angular, or Vue, and has a proven
+          track record of building responsive and user-friendly websites and web
+          applications. Huy also has extensive experience working with
+          industry-standard design tools such as Figma and Sketch and possesses
+          a solid grasp of design principles like typography, color theory, and
+          layout. With his diverse skill set, Huy is committed to delivering
+          exceptional solutions that blend aesthetics and functionality to
+          create seamless user experiences. If you want to explore some of
+          Huy&apos;s exciting projects, take a peek at{' '}
+          <Link href="https://www.github.com/huy289cb">his Github profile</Link>
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -97,7 +102,7 @@ const Page = () => {
           I 💙
         </Heading>
         <Paragraph>
-          Art, Anime, <Link href="#">Music</Link>, Computer Game, {' '}
+          Art, Manga, Anime, <Link href="#">Music</Link>, Computer Game,{' '}
           <Link href="#">Playing Guitar</Link>
         </Paragraph>
       </Section>
